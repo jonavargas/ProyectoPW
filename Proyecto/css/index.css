@@ -225,6 +225,16 @@ footer{
     font-family: Arial;
     font-size: 1.3em;
 }
+.asideGallery{
+    border-radius: 0.5em;
+    margin: 0.1em;
+    padding: 0.6em;
+    text-align: center;
+    width: 40%;
+    font-family: Arial;
+    font-size: 1.3em;
+    margin-left: -20em;
+}
 
 .fade{
     filter:alpha(opacity=10); 
