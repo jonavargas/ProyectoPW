@@ -226,14 +226,26 @@ footer{
     font-size: 1.3em;
 }
 .asideGallery{
-    border-radius: 0.5em;
-    margin: 0.1em;
+    border-radius: 0.5em;    
     padding: 0.6em;
     text-align: center;
-    width: 40%;
+    width: 30%;
     font-family: Arial;
     font-size: 1.3em;
-    margin-left: -20em;
+    float: inherit;
+    margin-right: -20%;    
+}
+.asideEncuesta{
+    width: 40%;
+    
+    margin-right: 10%;  
+
+}
+.SectionGallery{
+    margin-left: 35%;    
+    width: 80%;
+   
+
 }
 
 .fade{
@@ -500,3 +512,4 @@ footer{
         width: 95%;
     }
 }
+
