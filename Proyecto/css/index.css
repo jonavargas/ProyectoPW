@@ -208,13 +208,20 @@ footer{
     width: 95%;
 
 } 
-
 .articleduty{
     border-radius: 0.5em;
     margin: 0.1em;
     padding: 0.5em;
     text-align: center;
     width: 95%;
+}
+.articleServices{
+    border-radius: 0.5em;
+    margin: 0.1em;
+    padding: 0.5em;
+    text-align: center;
+    width: 95%;
+    background-color: #85CADC;
 }
 .articleNews{
     border-radius: 0.5em;
@@ -362,6 +369,21 @@ footer{
     -moz-transform: rotate(-7deg); 
     -o-transform: rotate(-7deg); 
 } 
+
+.tableServices{
+    border: solid;
+    border-collapse: collapse;
+    border-color: #113357;
+    border-style: solid;
+    border-spacing: 20px 10px;
+    margin-left: 1em;
+    width: 94%;
+    height: 50%;
+}
+
+.tableServices td{
+    width: 80%;
+}
 
 .teachers{
     border-color: transparent;
@@ -512,4 +534,3 @@ footer{
         width: 95%;
     }
 }
-
