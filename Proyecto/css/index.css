@@ -231,6 +231,7 @@ footer{
     width: 95%;
     font-family: Arial;
     font-size: 1.3em;
+    margin-bottom: 0.3em;
 }
 .asideGallery{
     border-radius: 0.5em;    
@@ -240,12 +241,12 @@ footer{
     font-family: Arial;
     font-size: 1.3em;
     float: inherit;
-    margin-right: -20%;    
+    margin-left: 120%;    
 }
 
 .SectionGallery{
     float: inherit;
-    margin-right: 35%;    
+    margin-right: 10%;    
     width: 60%;
 }
 
@@ -446,7 +447,7 @@ footer{
 }
 
 .poll{
-    background-color: #3333FF;
+    background-color:#385CB2;
     border-radius: 7% 7% 7% 7%;
     border-style: solid;
     color: #FFFFFF;
@@ -480,8 +481,8 @@ footer{
 }
 
 #pollBase{
-    margin-left: -46%;
-    margin-top: -10%;
+    margin-left: -4%;
+    margin-top: -6%;
 }
 
 #container{
@@ -522,9 +523,10 @@ footer{
 }
 
 #idPoll{
-    width: 15%;
+    width: 35%;
     margin-left: -310px;
     margin-top: -167px;
+
 
 }
 
