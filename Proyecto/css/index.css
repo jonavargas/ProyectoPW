@@ -237,17 +237,15 @@ footer{
     border-radius: 0.5em;    
     padding: 0.6em;
     text-align: center;
-    width: 30%;
     font-family: Arial;
     font-size: 1.3em;
-    float: inherit;
-    margin-left: 120%;    
+    margin-left: 170px;  
+    margin-top: -15px;
 }
 
 .SectionGallery{
-    float: inherit;
-    margin-right: 10%;    
-    width: 60%;
+    height: 80px;  
+    width: 700px;
 }
 
 .fade{
@@ -451,7 +449,6 @@ footer{
     border-radius: 7% 7% 7% 7%;
     border-style: solid;
     color: #FFFFFF;
-    
     height: 100%;
     width: 100%;
 }
@@ -482,8 +479,10 @@ footer{
 }
 
 #pollBase{
-    margin-left: -4%;
-    margin-top: -6%;
+    height: 80px;
+    margin-left: -18px;
+    margin-top: 70px;
+    width: 700px;
 }
 
 #container{
