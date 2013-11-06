@@ -374,6 +374,18 @@ footer{
 .tableServices td{
     width: 80%;
 }
+.tableInteres{
+    border: solid;
+    border-collapse: collapse;
+    border-color: #113357;
+    border-style: solid;
+    border-spacing: 20px 10px;
+    margin-left: 49%;
+    width: 62%;
+    height: 50%;
+    margin-top: -35%;
+}
+
 
 .teachers{
     border-color: transparent;
