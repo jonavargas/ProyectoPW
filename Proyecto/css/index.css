@@ -242,17 +242,11 @@ footer{
     float: inherit;
     margin-right: -20%;    
 }
-.asideEncuesta{
-    width: 40%;
-    
-    margin-right: 10%;  
 
-}
 .SectionGallery{
-    margin-left: 35%;    
-    width: 80%;
-   
-
+    float: inherit;
+    margin-right: 35%;    
+    width: 60%;
 }
 
 .fade{
@@ -291,11 +285,9 @@ footer{
     margin-bottom:-3em;
     border: 3px;
     border-radius: 15px;
-
 }
 
 .sectionabout{
-
     background: url('../img/image.jpg');
     border-radius: 0.5em;
     display: inline-block;
@@ -307,7 +299,6 @@ footer{
     font-size: 1.3em;
     font-family: Arial;
     color:#113357; 
-
 }
 
 .sectionadmission{
@@ -424,19 +415,28 @@ footer{
     margin-right: -35%;
     margin-top: -95px;
 }
+
 .titleAside{ 
     border-bottom: 2%;
     color: #EDEDED;
-    font-size: 25px;
+    font-size: 30px;
     font-style: normal; 
     font-weight: 700; 
     text-align: center;
-    text-shadow: 0 6px 0 #283049, 
-    0 12px 0 #001452, 
-    0 0 40px #999999, 
-    0 0 20px #999999, 
-    0 0 10px #999999, 
-    0 0 5px #999999;
+    font:normal Arial;
+    color:#FFFFFF;
+    text-shadow: 0 1px 0 #ccc,
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
 }
 
 .title:hover{
@@ -445,9 +445,48 @@ footer{
     font-size: 1.12em;
 }
 
+.poll{
+    background-color: #3333FF;
+    border-radius: 7% 7% 7% 7%;
+    border-style: solid;
+    color: #FFFFFF;
+    height: 100%;
+    width: 100%;
+}
+
+.question{
+    background-color: #00006B;
+    border-style: solid;
+    font-size: 1.2em;
+    font-family: "Chalet";
+    margin-top: 3%;
+    text-align: center;
+}
+
+.results{
+    margin-left: 40%;
+}
+
+.button{
+    font-family: Arial;
+    display: inherit;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.button input:hover{
+    color: #FFFFFF;
+    background-color: #0099CC;
+}
+
+#pollBase{
+    margin-left: -46%;
+    margin-top: -10%;
+}
+
 #container{
     margin: 150px auto;
-    width: 850px;
+    width: 1000px;
 }
 
 #container img{
@@ -463,6 +502,34 @@ footer{
     -webkit-transform: rotate(-7deg); 
     -moz-transform: rotate(-7deg); 
     -o-transform: rotate(-7deg); 
+}
+
+#Gallery{
+    font:normal 60pt Arial;
+    color:#FFFFFF;
+    text-shadow: 0 1px 0 #ccc,
+    0 2px 0 #0066FF,
+    0 3px 0 #0033CC,
+    0 4px 0 #000099,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+}
+
+#idPoll{
+    width: 15%;
+    margin-left: -310px;
+    margin-top: -167px;
+
+}
+
+#info{
+    font-size: 18px;
 }
 
 #preview{
