@@ -213,7 +213,7 @@ footer{
     margin: 0.1em;
     padding: 0.5em;
     text-align: center;
-    width: 95%;
+    width: 95%;  
 }
 .articleServices{
     border-radius: 0.5em;
@@ -242,7 +242,6 @@ footer{
     margin-left: 170px;  
     margin-top: -15px;
 }
-
 .SectionGallery{
     height: 80px;  
     width: 700px;
@@ -301,7 +300,6 @@ footer{
 }
 
 .sectionadmission{
-
     background: url('../img/image.jpg');
     border-radius: 0.5em;
     display: inline-block;
@@ -312,7 +310,7 @@ footer{
     width: 80%;    
     font-size: 1.6em;
     font-family: Arial;
-    color:#113357; 
+    color:#113357;     
 }
 
 .articleadmission{
@@ -333,6 +331,10 @@ footer{
 .imageadobe2{
     margin-top: 0.25em; 
     width: 25%;
+}
+.imagenesInteres{
+    width: 100px;
+    height: 100px;
 }
 
 .social{
@@ -375,15 +377,17 @@ footer{
     width: 80%;
 }
 .tableInteres{
+    background-color: #85CADC;
     border: solid;
     border-collapse: collapse;
     border-color: #113357;
     border-style: solid;
     border-spacing: 20px 10px;
+    font-size: 18px;
+    height: 90px;
     margin-left: 49%;
-    width: 62%;
-    height: 50%;
-    margin-top: -35%;
+    margin-top: -37%;
+    width: 580px; 
 }
 
 
@@ -463,6 +467,7 @@ footer{
     color: #FFFFFF;
     height: 100%;
     width: 100%;
+
 }
 
 .question{
@@ -494,7 +499,7 @@ footer{
     height: 80px;
     margin-left: -18px;
     margin-top: 70px;
-    width: 700px;
+    width: 700px;   
 }
 
 #container{
@@ -534,12 +539,10 @@ footer{
     0 20px 20px rgba(0,0,0,.15);
 }
 
-#idPoll{
-    width: 35%;
+#idPoll{   
     margin-left: -310px;
     margin-top: -167px;
-
-
+    width: 35%;
 }
 
 #info{
