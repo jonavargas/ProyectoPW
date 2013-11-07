@@ -204,8 +204,8 @@ footer{
     padding: 0.5em;
     text-align: justify;;
     width: 95%;
+}
 
-} 
 .articleduty{
     border-radius: 0.5em;
     margin: 0.1em;
@@ -213,6 +213,7 @@ footer{
     text-align: center;
     width: 95%;  
 }
+
 .articleServices{
     border-radius: 0.5em;
     margin: 0.1em;
@@ -221,6 +222,7 @@ footer{
     width: 95%;
     background-color: #85CADC;
 }
+
 .articleNews{
     border-radius: 0.5em;
     margin: 0.1em;
@@ -231,6 +233,7 @@ footer{
     font-size: 1.3em;
     margin-bottom: 0.3em;
 }
+
 .asideGallery{
     border-radius: 0.5em;    
     padding: 0.6em;
@@ -240,6 +243,7 @@ footer{
     margin-left: 170px;  
     margin-top: -15px;
 }
+
 .SectionGallery{
     height: 80px;  
     width: 700px;
@@ -266,62 +270,65 @@ footer{
     -webkit-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out;    
 }
+
 .imagenProgram{
-    width: 14em;
+    border: 3px solid #103139;
+    border-radius: 15px;  
     margin-left:25em;
     margin-top:-4em;
-    margin-bottom:-2em;
-    border: 3px solid #103139;
-    border-radius: 15px;
+    margin-bottom:-2em;    
+    width: 14em;
 }
+
 .imagenAdmission{
-    width: 15em;
+    border: 3px;
+    border-radius: 15px;    
     margin-left:23em;
     margin-top:-4em;
     margin-bottom:-3em;
-    border: 3px;
-    border-radius: 15px;
+    width: 15em;
 }
 
 .sectionabout{
     background: url('../img/image.jpg');
     border-radius: 0.5em;
+    color:#113357;
     display: inline-block;
+    font-size: 1.3em;
+    font-family: Arial;
     margin: 0 auto;
     max-width: 100%;
     padding: 3.30em;
     vertical-align: top;    
-    width: 80%;    
-    font-size: 1.3em;
-    font-family: Arial;
-    color:#113357; 
+    width: 80%;        
 }
 
 .sectionadmission{
     background: url('../img/image.jpg');
     border-radius: 0.5em;
     display: inline-block;
+    color:#113357; 
+    font-size: 1.6em;
+    font-family: Arial;    
     margin: 0 auto;
     max-width: 100%;
     padding: 3.30em;
     vertical-align: top;    
     width: 80%;    
-    font-size: 1.6em;
-    font-family: Arial;
-    color:#113357;     
 }
-
 
 .sectionInteres{
     border-radius: 0.5em;
+    color:#113357; 
     display: inline-block;
+    font-size: 1.6em;
+    font-family: Arial;
     margin: 0 auto;
     max-width: 100%;
     vertical-align: top;    
     width: 80%;    
-    font-size: 1.6em;
-    font-family: Arial;
-    color:#113357;     
+    
+        
 }
 
 .articleadmission{
@@ -344,8 +351,8 @@ footer{
     width: 25%;
 }
 .imagenesInteres{
-    width: 100px;
     height: 100px;
+    width: 100px;    
 }
 
 .social{
@@ -387,6 +394,7 @@ footer{
 .tableServices td{
     width: 80%;
 }
+
 .tableInteres{
     background-color: #85CADC;
     border: solid;
@@ -400,7 +408,6 @@ footer{
     margin-top: -28%;
     width: 580px; 
 }
-
 
 .teachers{
     border-color: transparent;
